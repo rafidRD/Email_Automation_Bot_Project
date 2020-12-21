@@ -38,26 +38,27 @@ def send_email(receiver, subject, message):
 
 
 email_list = {
-    'dude': 'COOL_DUDE_EMAIL',
-    'bts': 'diamond@bts.com',
-    'pink': 'jennie@blackpink.com',
-    'lisa': 'lisa@blackpink.com',
+    'rafid': 'rafidahmed@giyd.org',
+    'jungkok': 'jungkook@btsArmy.org',
+    'jennie': 'jennie19@blackpink.com',
+    'lisa': 'lisa73@blackpink.com',
     'irene': 'irene@redvelvet.com'
+    'rezvi': 'rezvi9418149@gmail.com',
 }
 
 
 def get_email_info():
-    talk('To Whom you want to send email')
+    talk('To Whom you want to send the email')
     name = get_info()
     receiver = email_list[name]
     print(receiver)
     talk('What is the subject of your email?')
     subject = get_info()
-    talk('Tell me the text in your email')
+    talk('Tell me your thought, that is going to be in your email')
     message = get_info()
     send_email(receiver, subject, message)
-    talk('Hey lazy ass. Your email is sent')
-    talk('Do you want to send more email?')
+    talk('Hey lazy. Your email is sent successfully')
+    talk('Do you want to send another email?')
     send_more = get_info()
     if 'yes' in send_more:
         get_email_info()
