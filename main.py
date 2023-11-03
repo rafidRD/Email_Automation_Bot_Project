@@ -38,12 +38,11 @@ def send_email(receiver, subject, message):
 
 
 email_list = {
-    'rafid': 'rafidahmed@giyd.org',
     'jungkok': 'jungkook@btsArmy.org',
     'jennie': 'jennie19@blackpink.com',
     'lisa': 'lisa73@blackpink.com',
     'irene': 'irene@redvelvet.com'
-    'rezvi': 'rezvi9418149@gmail.com',
+    'kusi': 'kusimusi9@gmail.com',
 }
 
 
